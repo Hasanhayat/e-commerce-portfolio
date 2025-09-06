@@ -1,0 +1,47 @@
+[debug] [2025-09-06T16:33:18.134Z] ----------------------------------------------------------------------
+[debug] [2025-09-06T16:33:18.141Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-09-06T16:33:18.143Z] CLI Version:   14.15.2
+[debug] [2025-09-06T16:33:18.143Z] Platform:      win32
+[debug] [2025-09-06T16:33:18.144Z] Node Version:  v22.11.0
+[debug] [2025-09-06T16:33:18.145Z] Time:          Sat Sep 06 2025 21:33:18 GMT+0500 (Pakistan Standard Time)
+[debug] [2025-09-06T16:33:18.146Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-06T16:33:18.169Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-06T16:33:18.171Z] > authorizing via signed-in user (aylskhsmvz.v@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\WEB DEV\react\e-commerce-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-09-06T16:35:16.319Z] Using project from CLI flag: hassan-hayat
+[debug] [2025-09-06T16:35:16.322Z] Checked if tokens are valid: true, expires at: 1757178729165
+[debug] [2025-09-06T16:35:16.322Z] Checked if tokens are valid: true, expires at: 1757178729165
+[debug] [2025-09-06T16:35:16.325Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hassan-hayat [none]
+[debug] [2025-09-06T16:35:21.091Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hassan-hayat 200
+[debug] [2025-09-06T16:35:21.092Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hassan-hayat {"projectId":"hassan-hayat","projectNumber":"107703969845","displayName":"hassan-hayat","name":"projects/hassan-hayat","resources":{"hostingSite":"hassan-hayat"},"state":"ACTIVE","etag":"1_36d9b78c-54ac-48de-bceb-b3b52885fb23"}
+[info] i  Using project hassan-hayat (hassan-hayat) 
+[info] 
+=== Hosting Setup
+[debug] [2025-09-06T16:35:23.462Z] Checked if tokens are valid: true, expires at: 1757178729165
+[debug] [2025-09-06T16:35:23.462Z] Checked if tokens are valid: true, expires at: 1757178729165
+[debug] [2025-09-06T16:35:23.463Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hassan-hayat [none]
+[debug] [2025-09-06T16:35:23.907Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hassan-hayat 200
+[debug] [2025-09-06T16:35:23.907Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hassan-hayat {"projectId":"hassan-hayat","projectNumber":"107703969845","displayName":"hassan-hayat","name":"projects/hassan-hayat","resources":{"hostingSite":"hassan-hayat"},"state":"ACTIVE","etag":"1_36d9b78c-54ac-48de-bceb-b3b52885fb23"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
