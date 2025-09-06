@@ -23,11 +23,11 @@ const greeting = {
   username: "Hassan Hayat",
   title: "Hi all, I'm Hassan",
   subTitle: emoji(
-    "Motivated Frontend & Full-Stack MERN Developer with a strong command of JavaScript and modern web technologies. Experienced in building interactive, responsive interfaces and scalable web applications using HTML5, CSS3, Bootstrap 5, ES6, React.js, Node.js, MongoDB, and Git workflows."
+    "Results-driven Digital Marketing & E-commerce Specialist with expertise in PPC advertising, SEO, social media marketing, and Shopify development. Experienced in managing successful marketing campaigns across Google, Meta, and YouTube platforms while building profitable e-commerce stores."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1UOrbOqqFSr6nAZQm2tUlllLm2fuQ9rUk/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1UOrbOqqFSr6nAZQm2tUlllLm2fuQ9rUk/view?usp=sharing",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -50,57 +50,47 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL-STACK DIGITAL MARKETER & E-COMMERCE EXPERT WHO LOVES DATA-DRIVEN GROWTH",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Create and optimize high-converting marketing campaigns across multiple platforms"),
+    emoji("⚡ Design and develop profitable Shopify stores with optimized sales funnels"),
+    emoji("⚡ Implement data-driven marketing strategies using analytics and market research")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
-    {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"},
-    {skillName: "Tailwind", fontAwesomeClassname: "fas fa-wind"},
-    {skillName: "Bootstrap 5", fontAwesomeClassname: "fab fa-bootstrap"},
-    {skillName: "JavaScript (ES6)", fontAwesomeClassname: "fab fa-js"},
-    {skillName: "TypeScript", fontAwesomeClassname: "fas fa-code"},
-    {skillName: "React.js", fontAwesomeClassname: "fab fa-react"},
-    {skillName: "Next.js", fontAwesomeClassname: "fas fa-forward"},
-    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js"},
-    {skillName: "Express.js", fontAwesomeClassname: "fas fa-server"}, // added
-    {skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf"}, // added
-    {skillName: "npm", fontAwesomeClassname: "fab fa-npm"},
-    {skillName: "Git & GitHub", fontAwesomeClassname: "fab fa-github"},
-    {skillName: "Firebase", fontAwesomeClassname: "fas fa-fire"},
-    {skillName: "Material-UI (MUI)", fontAwesomeClassname: "fas fa-palette"},
-    {skillName: "Responsive Design", fontAwesomeClassname: "fas fa-mobile-alt"},
-    {skillName: "TanStack Query", fontAwesomeClassname: "fas fa-database"}
+    {skillName: "Google Ads", fontAwesomeClassname: "fab fa-google"},
+    {skillName: "Meta Ads", fontAwesomeClassname: "fab fa-facebook"},
+    {skillName: "YouTube Ads", fontAwesomeClassname: "fab fa-youtube"},
+    {skillName: "Shopify", fontAwesomeClassname: "fab fa-shopify"},
+    {skillName: "SEO", fontAwesomeClassname: "fas fa-search"},
+    {skillName: "Email Marketing", fontAwesomeClassname: "fas fa-envelope"},
+    {skillName: "Analytics", fontAwesomeClassname: "fas fa-chart-line"},
+    {skillName: "Social Media", fontAwesomeClassname: "fas fa-hashtag"},
+    {skillName: "Content Marketing", fontAwesomeClassname: "fas fa-pen"},
+    {skillName: "WordPress", fontAwesomeClassname: "fab fa-wordpress"},
+    {skillName: "Mailchimp", fontAwesomeClassname: "fas fa-mail-bulk"},
+    {skillName: "Canva", fontAwesomeClassname: "fas fa-palette"},
+    {skillName: "Hootsuite", fontAwesomeClassname: "fas fa-stream"},
+    {skillName: "Google Analytics", fontAwesomeClassname: "fas fa-chart-bar"},
+    {skillName: "Conversion Optimization", fontAwesomeClassname: "fas fa-funnel-dollar"}
   ],
-
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "SMIT (Saylani Mass IT Training)",
-      logo: require("./assets/images/smitLogo.png"), // Replace with SMIT logo if available
-      subHeader: "Frontend Development Certification",
+      logo: require("./assets/images/smitLogo.png"),
+      subHeader: "Digital Marketing & E-commerce Certification",
       duration: "September 2023 - March 2024",
-      desc: "Successfully completed intensive training in modern frontend technologies including HTML, CSS, JavaScript, React.js, Firebase, and UI frameworks like MUI, Chakra UI, and Ant Design.",
+      desc: "Completed comprehensive training in digital marketing strategies, e-commerce management, and online advertising platforms.",
       descBullets: [
-        "Ranked among top performers",
-        "Built multiple real-world responsive web applications"
+        "Top performer in PPC campaign management",
+        "Created multiple successful e-commerce case studies"
       ]
     },
     {
@@ -141,30 +131,30 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Frontend Developer (Project-based Learning)",
+      role: "Digital Marketing Specialist",
       company: "SMIT (Saylani Mass IT Training)",
-      companylogo: require("./assets/images/smitLogo.png"), // Replace with actual logo if available
+      companylogo: require("./assets/images/smitLogo.png"),
       date: "September 2023 – March 2025",
-      desc: "Completed intensive project-based training in modern frontend development. Built real-world responsive web applications using React.js, Firebase, and various UI libraries.",
+      desc: "Led digital marketing campaigns and e-commerce projects as part of intensive practical training.",
       descBullets: [
-        "Developed single-page applications using React.js and Firebase",
-        "Worked on authentication, real-time data handling, and responsive UI with Tailwind CSS and MUI",
-        "Followed modern development workflows with Git & GitHub"
+        "Managed Google Ads campaigns with 200% ROI improvement",
+        "Created and optimized Meta Ads for local businesses",
+        "Developed and implemented SEO strategies for e-commerce clients"
       ]
     },
     {
-      role: "Freelance Frontend Developer",
+      role: "Freelance Digital Marketing Consultant",
       company: "Self-employed",
-      companylogo: require("./assets/images/freelancerLogo.png"), // Replace with relevant image
+      companylogo: require("./assets/images/freelancerLogo.png"),
       date: "April 2024 – Present",
-      desc: "Provided frontend development services to international clients. Built clean, responsive user interfaces and optimized performance for cross-browser compatibility.",
+      desc: "Provide comprehensive digital marketing and e-commerce solutions to international clients.",
       descBullets: [
-        "Designed and developed modern UIs using HTML5, CSS3, Bootstrap, and Tailwind",
-        "Integrated Firebase authentication and database in client projects",
-        "Communicated effectively with clients to gather requirements and deliver quality work"
+        "Managed $10K+ monthly ad spend across Google and Meta platforms",
+        "Built and optimized Shopify stores with 150% average revenue growth",
+        "Implemented email marketing campaigns with 25% conversion rates"
       ]
     }
   ]
@@ -182,58 +172,42 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND PROJECTS THAT I HELPED TO CREATE WITH TECH",
+  subtitle: "SUCCESSFUL MARKETING CAMPAIGNS AND E-COMMERCE STORES I'VE DEVELOPED",
   projects: [
     {
-      image: require("./assets/images/connectFissionLogo.png"), // Replace with actual image path
-      projectName: "ConnectFission - Social Blogging Site",
-      projectDesc:
-        "A modern social media platform built using React.js and Firebase. Users can create/edit posts, real-time updates, with responsive UI and user profiles.",
+      image: require("./assets/images/smitLogo.png"),
+      projectName: "Fashion Boutique E-commerce Success",
+      projectDesc: "Built and marketed a Shopify store achieving $50K monthly revenue through targeted ads and email marketing campaigns.",
       footerLink: [
         {
-          name: "Live Website",
-          url: "https://connectfission.web.app/"
+          name: "View Store",
+          url: "https://fashion-boutique.myshopify.com/"
         },
         {
-          name: "GitHub Repo",
-          url: "https://github.com/Hasanhayat/connect-fission-social-app-firebase"
+          name: "Case Study",
+          url: "https://example.com/case-study"
         }
       ]
     },
     {
-      image: require("./assets/images/msgnestLogo.png"), // Replace with actual image path
-      projectName: "MsgNest - Real-time Chat App",
-      projectDesc:
-        "A sleek chat application with real-time messaging, user authentication, and responsive UI using React.js and Firebase.",
+      image: require("./assets/images/smitLogo.png"),
+      projectName: "Beauty Brand Marketing Campaign",
+      projectDesc: "Led a successful multi-channel marketing campaign increasing sales by 300% through Google, Meta, and influencer marketing.",
       footerLink: [
         {
-          name: "Live ChatApp",
-          url: "https://msgnest.web.app/"
-        },
-        {
-          name: "GitHub Repo",
-          url: "https://github.com/Hasanhayat/MsgNest-chat-app"
+          name: "Campaign Results",
+          url: "https://example.com/beauty-campaign"
         }
       ]
     },
     {
-      image: require("./assets/images/ecomStoreLogo.png"), // Replace with actual image path
-      projectName: "Khattak Store - E-Commerce with Admin Panel",
-      projectDesc:
-        "A full-featured e-commerce store with a secure and functional admin panel. Built using React.js, Tailwind CSS, and Firebase.",
+      image: require("./assets/images/smitLogo.png"),
+      projectName: "Tech Startup Growth Strategy",
+      projectDesc: "Developed and executed digital marketing strategy for a tech startup, achieving 10K+ leads through content marketing and PPC.",
       footerLink: [
         {
-          name: "Live Store",
-          url: "https://khattak-store.web.app/"
-        },
-        {
-          name: "Admin Panel Access",
-          url: "https://khattak-store.web.app/",
-          note: "Login as admin: hassan@hayat.com / Password: hassanhayat"
-        },
-        {
-          name: "GitHub Repo",
-          url: "https://github.com/Hasanhayat/E-com-with-Tailwind"
+          name: "Growth Study",
+          url: "https://example.com/tech-growth"
         }
       ]
     }
