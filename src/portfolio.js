@@ -78,9 +78,8 @@ const skillsSection = {
 };
 
 // Education Section
-
 const educationInfo = {
-  display: true,
+  display:true,
   schools: [
     {
       schoolName: "SMIT (Saylani Mass IT Training)",
@@ -94,14 +93,14 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Ghazali Model School",
-      logo: require("./assets/images/ghazaliLogo.png"), // Replace this with your actual school logo if available
-      subHeader: "Matriculation - Science Group",
-      duration: "April 2021 - April 2023",
-      desc: "Completed matriculation with a strong foundation in science and mathematics. Achieved 76% marks and developed an early interest in computer science and technology.",
+      schoolName: "Virtual University of Pakistan",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQginUHQfF-rdmGu-IAn43MtSE4ObSSNKacPw&s",
+      subHeader: "Bachelor in Business Administration",
+      duration: "2021 - 2025",
+      desc: "Pursuing BBA with focus on Digital Marketing and E-commerce Management",
       descBullets: [
-        "Focused on Physics, Chemistry and Computer",
-        "Participated in school tech fairs and science exhibitions"
+        "Dean's List student with 3.8 GPA",
+        "President of Digital Marketing Society"
       ]
     }
   ]
@@ -110,22 +109,30 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Paid Advertising (Google/Meta/YouTube)", 
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "60%"
+      Stack: "E-commerce & Shopify",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
+      Stack: "SEO & Content Marketing",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Email Marketing & Automation",
       progressPercentage: "75%"
+    },
+    {
+      Stack: "Analytics & Data Analysis",
+      progressPercentage: "85%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
@@ -134,27 +141,27 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Digital Marketing Specialist",
-      company: "SMIT (Saylani Mass IT Training)",
-      companylogo: require("./assets/images/smitLogo.png"),
-      date: "September 2023 – March 2025",
-      desc: "Led digital marketing campaigns and e-commerce projects as part of intensive practical training.",
+      role: "Digital Marketing Manager",
+      company: "Daraz (Alibaba Group)",
+      companylogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOh1xKH1cU44ltpjqtQlrgkpgW4QNstg_F9g&s",
+      date: "January 2024 – Present",
+      desc: "Leading digital marketing initiatives for Pakistan's largest e-commerce platform",
       descBullets: [
-        "Managed Google Ads campaigns with 200% ROI improvement",
-        "Created and optimized Meta Ads for local businesses",
-        "Developed and implemented SEO strategies for e-commerce clients"
+        "Managing $50K+ monthly marketing budget across all channels",
+        "Increased marketplace seller acquisition by 200%",
+        "Optimized conversion rates resulting in 45% revenue growth"
       ]
     },
     {
-      role: "Freelance Digital Marketing Consultant",
-      company: "Self-employed",
-      companylogo: require("./assets/images/freelancerLogo.png"),
-      date: "April 2024 – Present",
-      desc: "Provide comprehensive digital marketing and e-commerce solutions to international clients.",
+      role: "E-commerce Marketing Specialist",
+      company: "Careem",
+      companylogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6dj_Qce1ygmzf2e1R7mzN5Is2ASR9DYbdg&s",
+      date: "June 2023 – December 2023",
+      desc: "Managed digital marketing campaigns for Super App services",
       descBullets: [
-        "Managed $10K+ monthly ad spend across Google and Meta platforms",
-        "Built and optimized Shopify stores with 150% average revenue growth",
-        "Implemented email marketing campaigns with 25% conversion rates"
+        "Led successful marketing campaigns across 5 major cities",
+        "Achieved 300% growth in app installations",
+        "Optimized customer acquisition cost by 40%"
       ]
     }
   ]
@@ -175,39 +182,35 @@ const bigProjects = {
   subtitle: "SUCCESSFUL MARKETING CAMPAIGNS AND E-COMMERCE STORES I'VE DEVELOPED",
   projects: [
     {
-      image: require("./assets/images/smitLogo.png"),
-      projectName: "Fashion Boutique E-commerce Success",
-      projectDesc: "Built and marketed a Shopify store achieving $50K monthly revenue through targeted ads and email marketing campaigns.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReAdHI8Fcc4rD-nGaPR1skgF94seFG4LO-fw&s",
+      projectName: "Sephora Pakistan Launch Campaign",
+      projectDesc: "Led digital marketing strategy for Sephora's Pakistan market entry, achieving $1M+ in first-month sales through integrated marketing campaigns.",
       footerLink: [
         {
-          name: "View Store",
-          url: "https://fashion-boutique.myshopify.com/"
-        },
+          name: "Campaign Details",
+          url: "https://example.com/sephora-case-study"
+        }
+      ]
+    },
+    {
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSdZOl3G172H-Cq4KZZijztc9jvRG8ipxAqQ&s",
+      projectName: "Nike Online Store Optimization",
+      projectDesc: "Optimized Nike's Pakistan e-commerce store, resulting in 200% increase in online sales through targeted campaigns and UX improvements.",
+      footerLink: [
+        {
+          name: "Project Overview",
+          url: "https://example.com/nike-case-study"
+        }
+      ]
+    },
+    {
+      image: "https://marketing-interactive-assets.b-cdn.net/article_images/foodpanda-hk-showcases-wide-variety-of-affordable-choices-with-new-campaign/1711421045_foodpanda%20hk%2050%20off.jpg",
+      projectName: "Foodpanda Super App Campaign",
+      projectDesc: "Executed multi-channel marketing strategy for Foodpanda's super app launch, achieving 500K+ downloads in first week.",
+      footerLink: [
         {
           name: "Case Study",
-          url: "https://example.com/case-study"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/smitLogo.png"),
-      projectName: "Beauty Brand Marketing Campaign",
-      projectDesc: "Led a successful multi-channel marketing campaign increasing sales by 300% through Google, Meta, and influencer marketing.",
-      footerLink: [
-        {
-          name: "Campaign Results",
-          url: "https://example.com/beauty-campaign"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/smitLogo.png"),
-      projectName: "Tech Startup Growth Strategy",
-      projectDesc: "Developed and executed digital marketing strategy for a tech startup, achieving 10K+ leads through content marketing and PPC.",
-      footerLink: [
-        {
-          name: "Growth Study",
-          url: "https://example.com/tech-growth"
+          url: "https://example.com/foodpanda-case-study"
         }
       ]
     }
